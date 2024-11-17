@@ -1,0 +1,128 @@
+body {
+			background: repeating-linear-gradient(-101deg,
+					rgb(226, 205, 208),
+					rgb(224, 210, 213) 10px,
+					beige 10px,
+					beige 20px);
+		}
+
+		div img {
+			width: 25%;
+			border: 4px solid black;
+			padding: 7px;
+			border-radius: 10px;
+		}
+
+		.xyz {
+			text-align: justify;
+			color: rgb(255, 136, 0);
+			font-style: oblique;
+			text-shadow: 4px 5px 5px green;
+			text-decoration: overline;
+
+		}
+
+		.gh {
+			text-align: right;
+		}
+
+		.mnb {
+			text-align: left;
+			color: yellow;
+			font-style: italic;
+			text-shadow: 3px 4px 4px blue;
+			text-decoration: double-button;
+
+		}
+
+		.ui {
+			text-align: center;
+			color: chocolate;
+
+		}
+
+		.jkl {
+			color: peru;
+			font-style: initial;
+			text-shadow: 2px 3px 3px;
+			text-decoration: solid;
+		}
+
+		.ol {
+			text-align: right;
+			color: darkmagenta;
+		}
+
+		.ikl {
+			color: black;
+			font-style: oblique;
+			text-shadow: 8px 9px 9px;
+			text-decoration: underline;
+		}
+
+		.poi {
+			color: darkred;
+			font-style: unset;
+			text-shadow: 6px 7px 7px;
+			text-decoration: double;
+		}
+
+		.yui,
+		.uiy,
+		.iuy {
+			width: 100%;
+			border: 2px dotted;
+		}
+
+		.olp {
+			border-radius: 0cm;
+			border-style: dashed;
+			width: 100%;
+            margin-top:10px;
+            margin-bottom: 10px;
+
+		}
+        .poza{
+            border-radius: 20px;
+        }
+		.linkuri{
+			text-align: left;
+			color: rgb(0, 0, 0);
+			font-style: italic;
+			text-shadow: 3px 4px 4px blue;
+			text-decoration: double-button;
+			font-size:20px;
+		}
+		.link{
+			text-align: left;
+			color: rgb(0, 0, 0);
+			font-style: italic;
+			text-shadow: 3px 4px 4px blue;
+			text-decoration: double-button;
+			font-size:20px;
+		}
+		.pozaindex{
+
+			height: 100px;
+			border-style:solid;
+			border-color: black;
+			border-radius: 5px;
+			opacity: 80%;
+		}
+		
+		.button{font-style: italic;
+			    font-size: 25px;
+				margin-left: 45%;
+				margin-right: 45%;
+				color:blue;
+
+		}
+		.Anul-nasterii{
+			margin-right: auto;
+			margin-left: auto;
+			height:60px;
+			width:50%;
+			background-color:rgb(255, 217, 0);
+			text-align:center;
+		}
+		

@@ -1,0 +1,93 @@
+body {
+  background: repeating-linear-gradient(
+    45deg,
+    beige,
+    beige 10px,
+    white 10px,
+    white 20px
+  );
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+div img {
+  width: 20%;
+  border: 5px solid rgb(226, 217, 97);
+  padding: 5px;
+  margin: 2px;
+}
+.n {
+  width: 20%;
+  border: 5px solid rgb(255, 0, 0);
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+.m {
+  width: 25%;
+  border: 5px dashed orange;
+  padding: 5px;
+  margin-top: 5px;
+}
+.o {
+  width: 50%;
+  border: 5px dotted lightcoral;
+  padding: 6px;
+  margin-top: 5px;
+}
+.p {
+  width: 30%;
+  border: 5px ridge green;
+  padding: 6px;
+  margin-top: 5px;
+}
+.q {
+  width: 50%;
+  border: 5px inset blue;
+  padding: 6px;
+  margin-top: 5px;
+}
+.pat {
+  text-align: left;
+  color: red;
+  font-style: italic;
+  text-shadow: 4px 4px 4px red;
+}
+.pbt {
+  text-align: left;
+  color: orange;
+  font-style: italic;
+  text-shadow: 4px 4px 4px orange;
+}
+.pct {
+  text-align: left;
+  color: lightcoral;
+  font-style: italic;
+  text-shadow: 4px 4px 4px lightcoral;
+}
+.pdt {
+  text-align: left;
+  color: green;
+  font-style: italic;
+  text-shadow: 4px 4px 4px green;
+}
+.pet {
+  text-align: left;
+  color: blue;
+  font-style: italic;
+  text-shadow: 4px 4px 4px blue;
+}
+table,
+th,
+td {
+  width: 100%;
+  border: 2px groove;
+  color: tomato;
+  margin-top: 20px;
+}
+.tab,
+.tac,
+.tad {
+  width: 100%;
+  border: 2px dotted;
+  color: purple;
+  margin-top: 20px;
+}

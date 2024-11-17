@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function schimbari() {
+        document.getElementById("Nume").innerHTML = "Inginer Hardaware Bosch ";
+        document.getElementById("Realizari").innerHTML = "Realizari";
+        document.getElementById("foto").innerHTML = "Sa finalizez modulul pedagogic"; 
+        document.getElementById("inot").innerHTML = "Sa inteleg materia programare";         
+        document.getElementById("muzica").innerHTML = "Sa trec cu bine anul 1";
+        document.getElementById("Poza").src= "iuli.jpg";
+        document.getElementById("culoare").style.background= " repeating-linear-gradient(-45deg,lightgray,lightgray 10px,white 10px,white 20px)";
+        document.getElementById("font1").style.color= "purple";
+        document.getElementById("font2").style.color= "black";
+        document.getElementById("font3").style.color= "blue";
+        document.getElementById("font4").style.color= "red";
+        document.getElementById("font5").style.color= "green";
+        document.getElementById("Poza").style.opacity= "80%";
+      }
+      function Ani(){
+        return 2024-2005;
+      }
+      function Over(){
+        document.getElementById("omo").innerText = Ani() + " ani";
+      }
+      function NotOver(){
+        document.getElementById("omo").innerText= "19 mai 2005";
+      }
+    </script>
+
+    <title>Descriere personală</title>
+    <link rel="stylesheet" href="iuli.css" />
+  
+  </head>
+  
+  <body id="culoare">
+    
+    <button type="button" id="buton" onclick="schimbari()">Alta viata</button>
+
+    <div>
+      <img id="Poza" src="iuli.jpg" alt="Șuteu Iulian-Andrei" />
+    </div>
+
+    <div class="n">
+      <h3 id="font1" class="pat">Nume/Prenume</h3>
+      <p id="Nume">Șuteu Iulian - Andrei</p>
+    </div>
+
+    <div class="m">
+      <h3 id="font2" class="pbt">Email</h3>
+      <p>iuliansuteu1@gmail.com</p>
+    </div>
+
+    <div class="o">
+      <h3 id="font3" class="pct">Adresa</h3>
+      <p>Str. Tonorog, nr. 297, loc. Sântana de Mureș, jud. Mureș</p>
+    </div>
+
+    <div class="p">
+      <h3 id="font4" class="pdt">Telefon</h3>
+      <p>0740094811</p>
+
+      <p>Sexul masculin</p>
+      <p>Data naşterii 19.05.2005</p>
+      <p>Naţionalitatea română</p>
+    </div>
+
+    <div class="q">
+      <h3 id="font5" class="pet">Citat</h3>
+      <p>
+        "Scopul educației este să înlocuiască o minte goală cu una deschisă." —
+        Malcolm Forbes
+      </p>
+    </div>
+
+    <table>
+      <tr>
+        <th>Discipline</th>
+        <th>Link aferent disciplinelor</th>
+      </tr>
+      <tr>
+        <td>Programarea Calculatoarelor și Limbaje de Programare (anul I)</td>
+        <td>
+          <a href="url"
+            >https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/04b.pdf</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Circuite și Componente Pasive (anul I)</td>
+        <td>
+          <a href="url"
+            >https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/05b.pdf</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Grafică Asistată de Calculator (anul II)</td>
+        <td>
+          <a href="url"
+            >https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/15.pdf</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Microcontrolere (anul III)</td>
+        <td>
+          <a href="url"
+            >https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/41.pdf</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Instrumentație Virtuală (anul IV)</td>
+        <td>
+          <a href="url"
+            >https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/48.pdf</a
+          >
+        </td>
+      </tr>
+    </table>
+
+    <table class="tab">
+      <th class="tac" id="Realizari">Hobby-uri</th>
+      <tr>
+        <td class="tad" id="foto">Fotografia</td>
+      </tr>
+      <tr>
+        <td class="tad" id="inot">Înotul</td>
+      </tr>
+      <tr>
+        <td class="tad" id="muzica">Ascult muzică</td>
+      </tr>
+    </table>
+
+    <br><br>
+    <div id="omo" onmouseover="Over()" onmouseout="NotOver()" class="Anul-nasterii">
+      <p>Anul nasterii</p>
+
+  </body>
+</html>

@@ -1,0 +1,41 @@
+
+.ami{
+    margin-top: 50px;
+    margin-left:20px;
+    background-size: contain;
+    border: 5px solid rgb(68, 17, 220);
+   border-radius: 100px;
+   
+}
+p{
+    font-family:Lucida Calligraphy;
+    font-size: 15px;
+    color:rgb(11, 1, 20);
+}
+body{
+    background:linear-gradient(rgb(205, 85, 105),rgb(221, 140, 153),rgb(224, 170, 179)) 
+    
+    
+}
+.a{
+    color:rgb(19, 118, 199);
+    font-size: 30px;
+    font-family:Lucida Handwriting;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgb(237, 4, 4);
+}
+.b{
+    color:blueviolet;
+    font-size:30px; 
+    font-family: Lucida Handwriting;
+    text-decoration: underline;
+    text-shadow:2px 2px 5px rgb(223, 26, 26);
+}
+table, td{
+    border-color: black;
+    border: 1px;
+    border-style: double;
+    font-family: Lucida Calligraphy;
+    font-size: 15px;
+    color:black;
+}
